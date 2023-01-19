@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+@media (min-width: 390px) {
+    .container {
+        width: 370px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 864px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1200px;
+    }
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Bai_Jamjuree-Bold';
+    src: url("../fonts/Bai_Jamjuree/BaiJamjuree-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url("../fonts/Inter/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url("../fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+}
