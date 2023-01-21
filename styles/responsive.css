@@ -1,14 +1,36 @@
-
 @media (min-width: 390px) {
-}
-
-@media (min-width: 576px) {
-    .home__buttons {
-        flex-direction: row;
+    .home__profile {
+        max-width: 70vw;
     }
 }
 
+@media (min-width: 576px) {
+
+}
+
 @media (min-width: 768px) {
+    .home__inner {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home__profile {
+        max-width: 60rem;
+        margin-top: 0;
+    }
+
+    .home__button--touch {
+        width: 209px;
+        height: 62px;
+        font-size: 1.8rem;
+    }
+
+    .home__button--view {
+        width: 237px;
+        height: 62px;
+        font-size: 1.8rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -28,24 +50,34 @@
         display: none;
     }
 
-    .home__inner {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
     .home__content {
         margin-block: 6rem;
     }
 
-    .home__profile {
-        width: 404px;
-        height: 491px;
-        margin-top: 0;
+    .home__title {
+        font-size: 4.8rem;
+        max-width: 38rem;
     }
 
-    .home__profile--img {
-        width: 100%;
+    .home__caption {
+        font-size: 1.6rem;
+        max-width: 38rem;
+    }
+
+    .home__buttons {
+        flex-direction: row;
+    }
+
+    .home__profile {
+        width: 40rem;
+    }
+
+    .home__banner {
+        width: 98.9vw;
+    }
+
+    .home__banner--item {
+        font-size: 3.2rem;
     }
 }
 
