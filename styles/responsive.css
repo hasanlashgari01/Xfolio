@@ -79,6 +79,15 @@
     .home__banner--item {
         font-size: 3.2rem;
     }
+
+    .project__cards {
+        flex-direction: row;
+    }
+
+    .project__card {
+        position: relative;
+        width: 50%;
+    }
 }
 
 @media (min-width: 1440px) {

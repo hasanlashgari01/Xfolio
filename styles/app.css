@@ -252,7 +252,7 @@
     padding: 2.2rem;
     overflow: hidden;
     width: 95vw;
-    transform: matrix(1, -0.05, 0.05, 1, 0, 0) scale(0.99) ;
+    transform: matrix(1, -0.05, 0.05, 1, 0, 0) scale(0.99);
 }
 
 .home__banner--item {
@@ -277,4 +277,112 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Project */
+
+.project {
+    margin-block: 7.5rem;
+}
+
+.project__inner {
+}
+
+.project__title {
+    font-family: 'Bai_Jamjuree-Bold';
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.project__caption {
+    font-family: 'Inter-Medium';
+    margin-bottom: 4.8rem;
+    max-width: 50rem;
+}
+
+.project__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.project__card {
+    position: relative;
+    width: 100%;
+    min-height: 30rem;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.project__card:nth-child(1) {
+    background: url("../images/Rectangle 13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__card:nth-child(2) {
+    background: url("../images/Rectangle 15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(28, 28, 34, 0.6);
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.project__card:hover::before {
+    opacity: 1;
+}
+
+.project__card--title {
+    position: absolute;
+    left: -18rem;
+    bottom: 10.6rem;
+    font-family: 'Bai_Jamjuree-Bold';
+    font-size: 2.4rem;
+    color: var(--white-primary);
+    transition: 0.3s ease;
+}
+
+.project__card:hover .project__card--title,
+.project__card:hover .project__card--sub-title {
+    left: 2.4rem;
+}
+
+.project__card--sub-title {
+    color: var(--white-primary);
+    position: absolute;
+    bottom: 7.2rem;
+    left: -18rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.project__tags {
+    display: flex;
+    gap: 0.8rem;
+    position: absolute;
+    bottom: -4rem;
+    left: 2.4rem;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+.project__card:hover .project__tags {
+    bottom: 2.4rem;
+}
+
+.project__tag--item {
+    display: inline-flex;
+    border-radius: 10rem;
+    padding: 8px 16px;
+    color: var(--white-primary);
+    font-size: 1.2rem;
 }
