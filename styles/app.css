@@ -465,8 +465,6 @@
     flex-grow: 2;
 }
 
-/*.sta*/
-
 .status__gallery--col {
     display: grid;
     grid-template-rows: repeat(2, auto);
