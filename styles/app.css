@@ -387,3 +387,89 @@
     color: var(--white-primary);
     font-size: 1.2rem;
 }
+
+/* Status */
+
+.status {
+    margin-bottom: 6.4rem;
+}
+
+.status__content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.8rem;
+}
+
+.status__skill {
+    font-family: 'Bai_Jamjuree-Bold';
+}
+
+.status__title {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.status__expertise {
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.status__caption {
+    font-size: 2.4rem;
+    font-family: 'Inter-SemiBold';
+    margin-bottom: 3.2rem;
+    font-weight: 600;
+}
+
+.status__desc {
+    margin-bottom: 4.8rem;
+    font-weight: 400;
+}
+
+.status__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.status__activity--text {
+    font-family: 'Inter-SemiBold';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.status__activity--num {
+    font-family: 'Bai_Jamjuree-Bold';
+    font-size: 2.4rem;
+}
+
+.status__gallery {
+    display: flex;
+    gap: 0.561rem;
+}
+
+.status__gallery--item {
+    width: 50px;
+}
+
+.status__gallery--item:nth-child(1) {
+    flex-grow: 1.5;
+}
+
+.status__gallery--item:nth-child(2) {
+    flex-grow: 3;
+}
+
+.status__gallery--item:nth-child(3) {
+    flex-grow: 2;
+}
+
+/*.sta*/
+
+.status__gallery--col {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    /*flex-direction: column;*/
+    gap: 0.561rem;
+}
