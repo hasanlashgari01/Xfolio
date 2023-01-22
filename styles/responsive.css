@@ -30,6 +30,20 @@
         height: 62px;
         font-size: 1.8rem;
     }
+
+    .cta__desc {
+        font-size: 3.4rem;
+        max-width: 42rem;
+    }
+
+    .cta__link {
+        font-size: 3.8rem;
+    }
+
+    .footer__inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 1024px) {

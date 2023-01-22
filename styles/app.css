@@ -475,7 +475,7 @@
 /* App */
 
 .app {
-    margin-bottom: 28.7rem;
+    margin-bottom: 12.8rem;
 }
 
 .app__title {
@@ -512,4 +512,96 @@
 .app__name {
     font-family: 'Bai_Jamjuree-Bold';
     font-size: 2.227rem;
+}
+
+/* Cta */
+
+.cta {
+    margin-bottom: 12.8rem;
+}
+
+.cta__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta__desc {
+    margin-inline: auto;
+    font-size: 2.2rem;
+    font-family: 'Bai_Jamjuree-Bold';
+    line-height: 150%;
+    margin-bottom: 2.5rem;
+    max-width: 29rem;
+}
+
+.cta__link {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 2.4rem;
+    font-family: 'Bai_Jamjuree-Bold';
+    line-height: 150%;
+    position: relative;
+}
+
+.cta__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    bottom: -1rem;
+    background: linear-gradient(90deg, var(--gradient));
+}
+
+/* Footer */
+
+.footer__inner {
+    padding-top: 3.2rem;
+    border-top: 0.2rem solid var(--black-secondary);
+    margin-bottom: 3.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left {
+    margin-bottom: 3.2rem;
+}
+
+.footer__logo {
+    margin-bottom: 3.2rem;
+}
+
+.footer__copyright {
+    font-size: 1.4rem;
+    font-family: 'Bai_Jamjuree-Bold';
+}
+
+.footer-menu {
+    display: flex;
+    gap: 4.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.footer-menu__link {
+    font-family: 'Bai_Jamjuree-Bold';
+    color: var(--black-primary);
+}
+
+.social {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.social__link {
+    border: 0.2rem solid var(--black-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.75rem;
 }
