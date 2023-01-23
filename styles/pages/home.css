@@ -1,6 +1,6 @@
-@import "variables.css";
-@import "base.css";
-@import "grid.css";
+@import "../variables.css";
+@import "../base.css";
+@import "../grid.css";
 
 .gradient-color {
     background: linear-gradient(90deg, var(--gradient));
@@ -272,7 +272,7 @@
     transform: translate(50%, -50%);
     width: 3.2rem;
     height: 3.2rem;
-    background-image: url("../images/Star 2.png");
+    background-image: url("../../images/Star 2.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -316,14 +316,14 @@
 }
 
 .project__card:nth-child(1) {
-    background: url("../images/Rectangle 13.png");
+    background: url("../../images/Rectangle 13.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .project__card:nth-child(2) {
-    background: url("../images/Rectangle 15.png");
+    background: url("../../images/Rectangle 15.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
