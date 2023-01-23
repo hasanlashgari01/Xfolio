@@ -44,6 +44,19 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .introduction__head {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .introduction__title {
+        font-size: 4.4rem;
+    }
+
+    .introduction__caption {
+        max-width: 40rem;
+    }
 }
 
 @media (min-width: 1024px) {
