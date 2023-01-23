@@ -21,3 +21,13 @@ a {
 li {
     list-style: none;
 }
+
+.gradient-color {
+    background: linear-gradient(90deg, var(--gradient));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-bgcolor {
+    background: linear-gradient(90deg, var(--gradient));
+}
