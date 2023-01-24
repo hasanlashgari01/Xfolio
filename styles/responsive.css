@@ -57,6 +57,20 @@
     .introduction__caption {
         max-width: 40rem;
     }
+
+    .about__status-box {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about__status-box--num {
+        font-size: 3.2rem;
+    }
+
+    .about__status-box--text {
+        font-size: 1.8rem;
+        max-width: 20rem;
+    }
 }
 
 @media (min-width: 1024px) {
