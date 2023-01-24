@@ -92,40 +92,6 @@
     border-top-left-radius: 0;
 }
 
-.home__banner {
-    background-color: var(--black-secondary);
-    margin-top: 17.6rem;
-    display: flex;
-    padding: 2.2rem;
-    overflow: hidden;
-    width: 95vw;
-    transform: matrix(1, -0.05, 0.05, 1, 0, 0) scale(0.99);
-}
-
-.home__banner--item {
-    color: var(--white-secondary);
-    font-size: 1.2rem;
-    font-family: 'Bai_Jamjuree-Bold';
-    padding-inline: 3.2rem;
-    position: relative;
-}
-
-.home__banner--item::before {
-    content: '';
-    position: absolute;
-    left: -15%;
-    top: 50%;
-    transform: translate(50%, -50%);
-    width: 3.2rem;
-    height: 3.2rem;
-    background-image: url("../../images/Star 2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Project */
 
 .project {
