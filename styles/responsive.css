@@ -5,6 +5,24 @@
 }
 
 @media (min-width: 576px) {
+    .education__item {
+        padding-bottom: 3.3rem;
+    }
+
+    .education__content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .education__evidence {
+        margin-bottom: 0;
+    }
+
+    .education__year {
+        margin-bottom: 0;
+        margin-right: 5rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -163,6 +181,19 @@
 
     .status__gallery {
         height: 44.64rem;
+    }
+
+    .about {
+        margin-bottom: 12.8rem;
+    }
+
+    .about__inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .education {
+        width: 49%;
     }
 }
 
